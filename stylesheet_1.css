@@ -1,0 +1,281 @@
+
+
+* {
+	
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+.wrapper {
+	
+	width:100%;
+	background-color: ghostwhite;
+}
+
+html{
+	
+	background-color: #EFEFE3
+}
+
+#fountain_pen {
+	
+	width: 50%;
+	background-color: #EFEFE3;
+	display: block;
+	  margin-left: auto;
+  margin-right: auto;
+	
+}
+
+
+header {
+	
+	background-color: #EFEFE3; 
+	height: 180px;
+	  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+	z-index: -1;
+	
+	
+}
+
+
+#nav {
+	
+	list-style-type: none;
+ 	 text-align: center;
+	margin-top: 31px;
+	background-color: #EFEFE3;
+	
+	
+	
+}
+
+#nav li {
+	
+	display: inline;
+	font-size: 25px;
+  	padding: 70px;
+	
+	
+	
+}
+
+#nav li a {
+	
+	color: #32322B;
+	text-decoration: none;
+	font-family: "Lucida Handwriting", cursive;
+	font-size: 40px;
+	
+	
+}
+
+
+ #profile_pic {
+	
+	
+	display: block;
+	margin-left: auto;
+ 	margin-right: auto;
+  	width: 100%;
+	margin-top: 60px;
+	 background-color: #EFEFE3;
+	
+	
+}
+
+article {
+	
+	margin: 0px;
+	
+	
+}
+
+
+#bio {
+	
+ 	text-align:justify;
+	
+	width:90%;
+    word-wrap: break-word;
+	font-family: Courier, monospace;
+	font-size: 20px;
+	
+	margin: 10px;
+	
+	
+
+}
+
+#links {
+	
+	margin-top: -45px;
+	font-family: Courier, monospace;
+	font-size: 20px;
+	width:80%;
+    
+	text-align:center;
+	display: block;
+	margin: 10px;
+	padding:12px;
+	padding-top: 20px;
+	
+	
+	
+	
+}
+
+.url {
+	
+	text-decoration: none;
+	font-family: Courier, monospace;
+	font-size: 16px;
+		width:80%;
+    
+	text-align:justify;
+	display: block;
+	margin: 10px;
+	
+	
+	
+}
+
+.url_box {
+	
+		
+	height: 450px;
+}
+
+.contact_info {
+	
+		
+	text-decoration: none;
+	font-family: Courier, monospace;
+	font-size: 16px;
+		width:80%;
+    
+	text-align:justify;
+	display: block;
+	margin: 10px;
+	height: 450px;
+}
+	
+	
+
+
+@media screen and (min-width:900px) {
+	
+
+
+
+header {
+	
+	background-color: #EFEFE3; 
+	height: 180px;
+	  position: relative;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+	
+	
+	
+}
+	
+#fountain_pen {
+	
+	max-width: 250px;
+	float: right;
+	margin-top:-155px;
+	
+	
+}
+
+#nav {
+	
+	list-style-type: none;
+ 	 text-align: center;
+	margin-top:-50px;
+	margin-left: 180px;
+	
+	
+	
+}
+
+#nav li {
+	
+	display: inline;
+	font-size: 25px;
+  	padding: 70px;
+	
+	
+	
+}
+
+#nav li a {
+	
+	color: #32322B;
+	text-decoration: none;
+	font-family: "Lucida Handwriting", cursive;
+	font-size: 40px;
+	
+	
+		
+}
+
+
+ #profile_pic {
+	
+	
+	display: block;
+	margin-left: auto;
+ 	margin-right: auto;
+  	width: 20%;
+	margin-top: 60px;
+	
+}
+	
+
+
+
+#bio {
+	
+ 	text-align:unset;
+	
+	width:500px;
+    word-wrap: break-word;
+	font-family: Courier, monospace;
+	font-size: 20px;
+margin: auto;
+	padding-top: 20px;
+	
+}
+
+#links {
+	
+	margin-top: 270px;
+	font-family: Courier, monospace;
+	font-size: 20px;
+	margin: auto;
+	text-align:center;
+	
+}
+
+.url {
+	
+	text-decoration: none;
+	font-family: Courier, monospace;
+	font-size: 1em;
+	margin: auto;
+	text-align:center;
+	
+}
+
+
+	
+	
+}
