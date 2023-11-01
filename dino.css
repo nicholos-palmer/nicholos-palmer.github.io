@@ -1,7 +1,8 @@
 
 html {
 
-    background-color: skyblue;
+   
+background-color: skyblue;
 }
 
 
@@ -40,14 +41,14 @@ html {
 
 
    #character {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     background: url('https://i.ibb.co/VtY0mq2/big-head-carnegie-skating-removebg-preview.png');
     background-size: contain;
     position: absolute;
-    bottom: -12px;
+    bottom: -21px;
     opacity: 100%;
     left: 100px;
    }
@@ -121,19 +122,6 @@ html {
 
 
    #block {
-    width: 20px;
-    height: 20px;
-    background-color: blue;
-    position: absolute;
-    padding: 0 0 0 0;
-    bottom: -9px;
-    left: 480px;
-    background: url('https://i.ibb.co/McTCnNC/pngegg-1.png');
-  background-size: contain;
-  
-   }
-
-   #block {
     width: 125px;
     height: 60px;
     padding: 0 0 0 0;
@@ -149,7 +137,7 @@ html {
     
    }
    @keyframes slide {
-    0%{left: 1380px;}
+    0%{left: 1450px;}
     100%{left: -40px;}
    }
 
@@ -167,7 +155,31 @@ html {
 
    
     }
-   
+
+
+    #signal{
+
+
+      width: 205px;
+      height: 205px;
+      padding: 0 0 0 0;
+      position: absolute;
+      bottom: 0px;
+      left: 1000px;
+      background: url('https://i.ibb.co/qnzfZ5L/skate-ramp-removebg-preview.png');
+      filter: grayscale(100%);
+      animation: scoot 2.5s infinite;
+      animation-timing-function: linear;
+      margin: 0%;
+
+
+    }
+
+    @keyframes scoot {
+      0%{left: 1000px;}
+      100%{left: -310px;}
+     }
+     
 
    h2 {
 
